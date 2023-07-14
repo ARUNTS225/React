@@ -1,0 +1,39 @@
+.section{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type:none;
+
+  
+}
+.section ul li{
+        
+    border: 1px solid swhite;
+    padding: 10px;
+    cursor:pointer;
+    color:#4e73df ;
+    background-color: white;
+}
+
+
+.section ul li:hover{
+    color:white ;
+    background-color:#4e73df;
+}
+.activePage{
+    color:white !important;
+    background-color:#4e73df !important;
+}
+.selection{
+    border: 1px solid black;
+    width:80%;
+    margin: auto;
+    height: 500px;
+}
